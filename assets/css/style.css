@@ -209,10 +209,6 @@ header {
      margin-right: 20px;
  }
 
- .step-img img {
-     max-width: 100%;
- }
-
  .step-text p {
      color: #39a6b2;
      font-size: 18px;
@@ -225,6 +221,10 @@ header {
      color: #024e76;
  }
 
+ .step-text {
+     flex: 12;
+ }
+ 
  /* Trainers Style Start */
  
  .trainers {

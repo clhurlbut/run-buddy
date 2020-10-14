@@ -47,12 +47,12 @@ header {
   }
 
   footer {
-      background: #fce138;
+    display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;  
+    background: #fce138;
       width: 100%;
       padding: 40px 35px;
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
   }
 
   footer h2 {
@@ -64,6 +64,7 @@ header {
   footer div {
       line-height: 1.5;
       font-size: 15px;
+      color: #39a6b2;
   }
 
   footer a {
@@ -224,7 +225,7 @@ header {
  .step-text {
      flex: 12;
  }
- 
+
  /* Trainers Style Start */
  
  .trainers {
